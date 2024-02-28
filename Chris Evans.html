@@ -47,8 +47,8 @@
           <p>Marvel Cinematic Universe: In 2011, Evans landed the role of Steve Rogers / Captain America in the MCU, debuting in "Captain America: The First Avenger." He reprised the role in several other MCU films, including "The Avengers" series and "Captain America: The Winter Soldier.</p>
         </div>
         
-        <div id="Career" class="tabcontent">
-          <h1>Career</h1>
+        <div id="career" class="tabcontent">
+          <h1>career</h1>
           <p>Early Career: Evans began acting in the late 1990s with roles in TV series like "Opposite Sex" and "Boston Public."</p> 
           <p>Breakthrough Role: He gained prominence with the comedy film "Not Another Teen Movie" (2001).</p>
           <p>Marvel Cinematic Universe: Evans became a household name as Steve Rogers / Captain America in the MCU, appearing in multiple films from 2011 to 2019.</p>
@@ -86,13 +86,13 @@
             Nominated as part of the ensemble cast of "The Avengers" (2013) for Outstanding Performance by a Cast in a Motion Picture.</p>
         </div>
         
-        <button class="tablink" onclick="openGeneralInfo('Life', this, 'red')" id="defaultOpen">life</button>
-        <button class="tablink" onclick="openCity('Career', this, 'green')">Career</button>
-        <button class="tablink" onclick="openCity('movies', this, 'blue')">movies</button>
-        <button class="tablink" onclick="openCity('awards', this, 'orange')">awards</button>
+        <button class="tablink" onclick="openLife('Life', this, 'red')" id="defaultOpen">life</button>
+        <button class="tablink" onclick="opencareer('career', this, 'green')">Career</button>
+        <button class="tablink" onclick="openmovies('movies', this, 'blue')">movies</button>
+        <button class="tablink" onclick="openawards('awards', this, 'orange')">awards</button>
         
         <script>
-        function openGeneralInfo(contentName,elmnt,color) {
+        function openGeneralInfo(Name,elmnt,color) {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
@@ -102,7 +102,7 @@
           for (i = 0; i < tablinks.length; i++) {
             tablinks[i].style.backgroundColor = "";
           }
-          document.getElementById(cityName).style.display = "block";
+          document.getElementById(Name).style.display = "block";
           elmnt.style.backgroundColor = color;
         
         }
