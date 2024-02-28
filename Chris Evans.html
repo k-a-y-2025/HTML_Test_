@@ -49,17 +49,41 @@
         
         <div id="Career" class="tabcontent">
           <h1>Career</h1>
-          <p>Paris is the capital of France.</p> 
+          <p>Early Career: Evans began acting in the late 1990s with roles in TV series like "Opposite Sex" and "Boston Public."</p> 
+          <p>Breakthrough Role: He gained prominence with the comedy film "Not Another Teen Movie" (2001).</p>
+          <p>Marvel Cinematic Universe: Evans became a household name as Steve Rogers / Captain America in the MCU, appearing in multiple films from 2011 to 2019.</p>
+          <p>Diverse Roles: Beyond the MCU, Evans showcased his versatility in films like "Snowpiercer" (2013) and "Knives Out" (2019).</p>
+          <p>Directing and Producing: He made his directorial debut with "Before We Go" (2014) and has produced projects like "Defending Jacob" (2020).</p>
+          <p>Philanthropy: Evans is known for his activism, supporting causes like LGBTQ+ rights and environmental conservation.</p>
         </div>
         
-        <div id="Tokyo" class="tabcontent">
-          <h1>Tokyo</h1>
-          <p>Tokyo is the capital of Japan.</p>
+        <div id="movies" class="tabcontent">
+          <h1>movies</h1>
+          <p>Breakthrough with "Not Another Teen Movie" (2001): Evans gained recognition for his comedic performance in this parody of teen films.</p>
+          <p>"Fantastic Four" Series (2005, 2007): He portrayed Johnny Storm / Human Torch in these superhero films, marking his entry into blockbuster cinema.</p>
+          <p>Marvel Cinematic Universe (2011-2019): Evans became synonymous with the role of Steve Rogers / Captain America in various MCU films, including "Captain America: The First Avenger" (2011), "The Avengers" (2012), and "Avengers: Endgame" (2019).</p>
+          <p>"Snowpiercer" (2013): Evans starred in this dystopian thriller directed by Bong Joon-ho, receiving critical acclaim for his performance.</p>
+          <p>"Gifted" (2017): He showcased his dramatic range in this family drama about a child prodigy, earning praise for his portrayal of a caring uncle.</p>
+            <p>"Knives Out" (2019): Evans impressed audiences with his role as a charming but morally dubious character in this critically acclaimed whodunit film.</p>
+            <p>"Before We Go" (2014): Evans made his directorial debut with this romantic drama, in which he also starred opposite Alice Eve.</p>
         </div>
         
-        <div id="Oslo" class="tabcontent">
-          <h1>Oslo</h1>
-          <p>Oslo is the capital of Norway.</p>
+        <div id="awards" class="tabcontent">
+          <h1>awards</h1>
+        </p>MTV Movie Awards:
+            Won Best Breakthrough Performance for "Not Another Teen Movie" (2002).
+            Nominated for Best Hero for his role as Captain America in various MCU films.</p>
+        </p>Teen Choice Awards:
+            Won Choice Movie Actor: Sci-Fi/Fantasy for "Captain America: The Winter Soldier" (2014).
+            Nominated multiple times for his roles in "Fantastic Four" and the MCU.</p>
+        </p>People's Choice Awards:
+            Won Favorite Action Movie Star for his portrayal of Captain America.
+            Nominated for Favorite Superhero and Favorite Movie Actor.</p>
+        </p>Critics' Choice Movie Awards:
+            Nominated for Best Actor in an Action Movie for "Captain America: The First Avenger" (2012).
+            Nominated for Best Actor in a Comedy for "Knives Out" (2019).</p>
+        </p>SAG Awards (Screen Actors Guild Awards):
+            Nominated as part of the ensemble cast of "The Avengers" (2013) for Outstanding Performance by a Cast in a Motion Picture.</p>
         </div>
         
         <button class="tablink" onclick="openGeneralInfo('Life', this, 'red')" id="defaultOpen">life</button>
@@ -68,7 +92,7 @@
         <button class="tablink" onclick="openCity('awards', this, 'orange')">awards</button>
         
         <script>
-        function openCity(cityName,elmnt,color) {
+        function openGeneralInfo(contentName,elmnt,color) {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
