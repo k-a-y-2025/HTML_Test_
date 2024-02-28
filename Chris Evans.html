@@ -39,13 +39,16 @@
         
         <p>Click on the buttons inside the tabbed menu:</p>
         
-        <div id="London" class="tabcontent">
-          <h1>London</h1>
-          <p>London is the capital city of England.</p>
+        <div id="Life" class="tabcontent">
+          <h1>life</h1>
+          <p>Early Life: Christopher Robert Evans was born on June 13, 1981, in Boston, Massachusetts. He grew up in a family of actors and began performing in school plays at a young age.</p>
+          <p>Acting Career: Evans began his professional acting career in the late 1990s, appearing in television series like "Opposite Sex" and "Boston Public." He gained recognition for his roles in films such as "Not Another Teen Movie" and "The Perfect Score."</p>
+          <p>Breakthrough: Evans rose to prominence when he was cast as Johnny Storm / Human Torch in the superhero film "Fantastic Four" (2005) and its sequel "Fantastic Four: Rise of the Silver Surfer" (2007).</p>
+          <p>Marvel Cinematic Universe: In 2011, Evans landed the role of Steve Rogers / Captain America in the MCU, debuting in "Captain America: The First Avenger." He reprised the role in several other MCU films, including "The Avengers" series and "Captain America: The Winter Soldier.</p>
         </div>
         
-        <div id="Paris" class="tabcontent">
-          <h1>Paris</h1>
+        <div id="Career" class="tabcontent">
+          <h1>Career</h1>
           <p>Paris is the capital of France.</p> 
         </div>
         
@@ -59,10 +62,10 @@
           <p>Oslo is the capital of Norway.</p>
         </div>
         
-        <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-        <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-        <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-        <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+        <button class="tablink" onclick="openGeneralInfo('Life', this, 'red')" id="defaultOpen">life</button>
+        <button class="tablink" onclick="openCity('Career', this, 'green')">Career</button>
+        <button class="tablink" onclick="openCity('movies', this, 'blue')">movies</button>
+        <button class="tablink" onclick="openCity('awards', this, 'orange')">awards</button>
         
         <script>
         function openCity(cityName,elmnt,color) {
