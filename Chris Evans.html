@@ -32,19 +32,19 @@
       text-align: center;
     }
 
-    #life {
+    #Life {
       background-color: red;
     }
 
-    #career {
+    #Career {
       background-color: green;
     }
 
-    #movies {
+    #Movies {
       background-color: blue;
     }
 
-    #awards {
+    #Awards {
       background-color: orange;
     }
 
@@ -55,7 +55,7 @@
     }
   </style>
   <script>
-    function openGeneralInfo(Name, elmnt, color) {
+    function openTab(Name, elmnt, color) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -78,7 +78,7 @@
 
   <p>Click on the buttons inside the tabbed menu:</p>
 
-  <div id="life" class="tabcontent">
+  <div id="Life" class="tabcontent">
     <h1>life</h1>
     <p>Early Life: Christopher Robert Evans was born on June 13, 1981, in Boston, Massachusetts. He grew up in a family
       of actors and began performing in school plays at a young age.</p>
@@ -92,7 +92,7 @@
       series and "Captain America: The Winter Soldier.</p>
   </div>
 
-  <div id="career" class="tabcontent">
+  <div id="Career" class="tabcontent">
     <h1>career</h1>
     <p>Early Career: Evans began acting in the late 1990s with roles in TV series like "Opposite Sex" and "Boston
       Public."</p>
@@ -107,7 +107,7 @@
       conservation.</p>
   </div>
 
-  <div id="movies" class="tabcontent">
+  <div id="Movies" class="tabcontent">
     <h1>movies</h1>
     <p>Breakthrough with "Not Another Teen Movie" (2001): Evans gained recognition for his comedic performance in this
       parody of teen films.</p>
@@ -126,7 +126,7 @@
       opposite Alice Eve.</p>
   </div>
 
-  <div id="awards" class="tabcontent">
+  <div id="Awards" class="tabcontent">
     <h1>awards</h1>
     </p>MTV Movie Awards:
     Won Best Breakthrough Performance for "Not Another Teen Movie" (2002).
@@ -145,10 +145,10 @@
     Picture.</p>
   </div>
 
-  <button class="tablink" onclick="openLife('Life', this, 'red')" id="defaultOpen">life</button>
-  <button class="tablink" onclick="opencareer('career', this, 'green')">Career</button>
-  <button class="tablink" onclick="openmovies('movies', this, 'blue')">movies</button>
-  <button class="tablink" onclick="openawards('awards', this, 'orange')">awards</button>
+  <button class="tablink" onclick="openTab('Life', this, 'red')" id="defaultOpen">life</button>
+  <button class="tablink" onclick="openTab('Career', this, 'green')">Career</button>
+  <button class="tablink" onclick="openTab('Movies', this, 'blue')">movies</button>
+  <button class="tablink" onclick="openTab('Awards', this, 'orange')">awards</button>
 
 
   <title>Chris Evans </title>
