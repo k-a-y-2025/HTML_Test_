@@ -82,7 +82,11 @@
 
 <body>
 
-  <p>Click on the buttons inside the tabbed menu:</p>
+  <button class="tablink" onclick="openTab('Life', this, 'red')" id="defaultOpen">life</button>
+  <button class="tablink" onclick="openTab('Career', this, 'green')">Career</button>
+  <button class="tablink" onclick="openTab('Movies', this, 'blue')">movies</button>
+  <button class="tablink" onclick="openTab('Awards', this, 'orange')">awards</button>
+
 
   <div id="Life" class="tabcontent">
     <h1>life</h1>
@@ -151,11 +155,7 @@
     Picture.</p>
   </div>
 
-  <button class="tablink" onclick="openTab('Life', this, 'red')" id="defaultOpen">life</button>
-  <button class="tablink" onclick="openTab('Career', this, 'green')">Career</button>
-  <button class="tablink" onclick="openTab('Movies', this, 'blue')">movies</button>
-  <button class="tablink" onclick="openTab('Awards', this, 'orange')">awards</button>
-
+ 
 
   <title>Chris Evans </title>
   <h1>Chris Evans: A famous actor form the United States</h1>
